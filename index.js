@@ -30,7 +30,8 @@ Carousel.prototype.render = function(){
         view.value.set(dial.value());
     });
     dial.renderItem = function(){
-        this.element = crel('img', {src:this._data});
+        var imagePath = gaffa.gedi.utils.get(view.imagePath, this._data);
+        this.element = crel('img', {src:imagePath});
         this.element.style.display = 'block';
         this.element.style.position = 'absolute';
         this.element.style[venfix('backface-visibility')] = 'hidden';
