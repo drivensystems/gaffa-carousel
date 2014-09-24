@@ -4,8 +4,8 @@
   "description": "A simple image carousel for gaffa",
   "main": "index.js",
   "dependencies": {
+    "crel": "^2.1.2",
     "dial-roller": "^1.0.0",
-    "crel": "^1.0.0",
     "doc-js": "^1.0.0",
     "venfix": "^1.0.0"
   },
