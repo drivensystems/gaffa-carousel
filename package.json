@@ -1,6 +1,6 @@
 {
-  "name": "gaffa-carousel",
-  "version": "1.1.2",
+  "name": "@drivensystems/gaffa-carousel",
+  "version": "1.1.3",
   "description": "A simple image carousel for gaffa",
   "main": "index.js",
   "dependencies": {
@@ -15,8 +15,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "publishConfig": {
-    "registry": "https://npm.yoik.net/"
-  }
+  "author": ""
 }
